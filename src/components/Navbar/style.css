@@ -1,0 +1,195 @@
+nav {
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 3px 10px #dbdbdb3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-center {
+  max-width: 1400px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nr {
+  width: auto;
+  display: flex;
+}
+
+.nc {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nc-item__cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.nc-item__icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 2px;
+}
+
+.nc-item__title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nc-item__icon img {
+  width: auto;
+  height: 100%;
+}
+
+.nbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nbn {
+  margin-left: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+}
+
+.nbi {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid green; */
+  background-color: dodgerblue;
+}
+
+.nr-iconc {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 5px;
+  margin: 0 10px;
+}
+
+.nr-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.ncart-count,
+.nlike-count {
+  width: 20px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-size: 1rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.nr-profile__cover {
+  width: 120px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+.nr-dd {
+  position: absolute;
+  display: none;
+  width: 150px;
+  top: 50px;
+  right: 0;
+  height: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px #cecece3a;
+  padding: 5px 8px;
+  transition: all 350ms;
+  animation-name: skew;
+  animation-duration: 350ms;
+  animation-timing-function: ease;
+}
+
+@keyframes skew {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.nr-dd.active {
+  display: block;
+}
+
+.nr-dd hr {
+  border: 0.8px solid #eeeeee;
+}
+
+.dd-text {
+  font-size: 0.85rem;
+  font-weight: 300;
+  padding: 8px 0;
+}
+
+.dd-login__cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dd-login__icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nr-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.nr-profile img {
+  width: 100%;
+  height: auto;
+}
+
+.nr-name {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.nr-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
